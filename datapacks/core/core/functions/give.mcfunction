@@ -1,0 +1,1 @@
+execute if score @s util = 管理员 util run scoreboard players set @a use 0
