@@ -1,4 +1,3 @@
-tellraw @s "§d==============="
 scoreboard objectives add util dummy "实用数字"
 scoreboard objectives add admin dummy "管理员验证"
 scoreboard players set 管理员 util 1
@@ -73,4 +72,3 @@ execute if score @s admin = 管理员 util run scoreboard objectives add totalKi
 execute if score @s admin = 管理员 util run tellraw @s [{"text":"已完成所有计分板添加","color": "green"}]
 execute if score @s admin < 管理员 util run tellraw @s [{"text":"权限不足","color": "red"}]
 scoreboard players set @s admin 0
-tellraw @s "§d==============="
