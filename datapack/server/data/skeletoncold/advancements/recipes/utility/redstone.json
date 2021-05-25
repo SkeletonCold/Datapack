@@ -1,0 +1,25 @@
+{
+    "parent": "skeletoncold:recipes/root",
+    "rewards": {
+      "recipes": [
+        "skeletoncold:utilities/repeater"
+      ]
+    },
+    "criteria": {
+      "has_redstone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:redstone"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_redstone"
+      ]
+    ]
+  }

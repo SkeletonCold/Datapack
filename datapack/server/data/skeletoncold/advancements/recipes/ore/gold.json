@@ -1,0 +1,25 @@
+{
+    "parent": "skeletoncold:recipes/root",
+    "rewards": {
+      "recipes": [
+        "skeletoncold:ore/gold"
+      ]
+    },
+    "criteria": {
+      "has_gold_block": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:gold_block"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_gold_block"
+      ]
+    ]
+  }

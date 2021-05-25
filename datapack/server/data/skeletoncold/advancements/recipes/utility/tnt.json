@@ -1,0 +1,25 @@
+{
+    "parent": "skeletoncold:recipes/root",
+    "rewards": {
+      "recipes": [
+        "skeletoncold:utilities/tnt"
+      ]
+    },
+    "criteria": {
+      "has_gunpowder": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:gunpowder"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_gunpowder"
+      ]
+    ]
+  }

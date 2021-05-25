@@ -1,0 +1,10 @@
+tellraw @s "§3==============================="
+tellraw @s "         §6帮助-Tiered               "
+tellraw @s "是否注意到，当你拿着一些物品时"
+tellraw @s "护甲值，血量，等属性有增加？"
+tellraw @s "该服务器安装了Tiered Mod!"
+tellraw @s " "
+tellraw @s "若想知道各个物品的属性加成"
+tellraw @s "请在客户端安装此mod"
+tellraw @s [{"text":"CurseForge链接","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/mc-mods/tiered"}}]
+tellraw @s "§3==============================="

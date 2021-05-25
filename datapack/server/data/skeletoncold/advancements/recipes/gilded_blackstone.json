@@ -1,0 +1,25 @@
+{
+    "parent": "skeletoncold:recipes/root",
+    "rewards": {
+      "recipes": [
+        "skeletoncold:gilded_blackstone"
+      ]
+    },
+    "criteria": {
+      "has_blackstone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:blackstone"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_blackstone"
+      ]
+    ]
+  }

@@ -1,0 +1,28 @@
+{
+    "parent": "skeletoncold:recipes/root",
+    "rewards": {
+      "recipes": [
+        "skeletoncold:minecart/chest",
+        "skeletoncold:minecart/furnace",
+        "skeletoncold:minecart/hopper",
+        "skeletoncold:minecart/tnt"
+      ]
+    },
+    "criteria": {
+      "has_minecart": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:minecart"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_minecart"
+      ]
+    ]
+  }

@@ -1,0 +1,25 @@
+{
+    "parent": "skeletoncold:recipes/root",
+    "rewards": {
+      "recipes": [
+        "skeletoncold:ore/emerald"
+      ]
+    },
+    "criteria": {
+      "has_emerald_block": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:emerald_block"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_emerald_block"
+      ]
+    ]
+  }

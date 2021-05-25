@@ -1,0 +1,17 @@
+tellraw @s "§3==============================="
+tellraw @s "            §6FAQ               "
+tellraw @s ""
+tellraw @s "Q:服务器属于“原版”、“生电（生存实用红石电路）”、“技术性”？"
+tellraw @s "A:服务器不属于其中任何一种，服务器使用了辅助模组、数据包等，可能不属于“原版服”"
+tellraw @s "--其次大多数红石设备皆使用他人设计，不能说是“技术性服务器”"
+tellraw @s "--不能说是“生电服”"
+tellraw @s "--个人将其定义为“轻量模组生存服务器”"
+tellraw @s [{"text":"--更多信息"},{"text":"参见","color":"red"},{"text":"此处","color":"green","clickEvent":{"action":"open_url","value":"https://www.bilibili.com/read/cv10597476"}}]
+tellraw @s ""
+tellraw @s "Q:模组？模组在哪？为什么我没加模组也能进服务器？"
+tellraw @s [{"text":"A:服务器模组参见此处","clickEvent":{"action":"run_command","value":"/function server/mods"}}]
+tellraw @s "--装载的皆是“服务端模组”即只需服务端安装，客户端无需安装"
+tellraw @s "更多问题待补充...."
+tellraw @s ""
+tellraw @s "有问题可以邮至3033573504@qq.com或联系QQ3033573504"
+tellraw @s "§3==============================="

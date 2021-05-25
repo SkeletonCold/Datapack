@@ -1,0 +1,21 @@
+tellraw @s "§3==============================="
+tellraw @s "         §6帮助-Chat-Chatcolor               "
+tellraw @s [{"text":"例:"},{"text":"&4我是示例","color":"red"}]
+tellraw @s [{"text":"&0","color":"black"}]
+tellraw @s [{"text":"&1","color":"dark_blue"}]
+tellraw @s [{"text":"&2","color":"dark_green"}]
+tellraw @s [{"text":"&3","color":"dark_aqua"}]
+tellraw @s [{"text":"&4","color":"dark_red"}]
+tellraw @s [{"text":"&5","color":"dark_purple"}]
+tellraw @s [{"text":"&6","color":"gold"}]
+tellraw @s [{"text":"&7","color":"gray"}]
+tellraw @s [{"text":"&8","color":"dark_gray"}]
+tellraw @s [{"text":"&9","color":"blue"}]
+tellraw @s [{"text":"&a","color":"green"}]
+tellraw @s [{"text":"&b","color":"aqua"}]
+tellraw @s [{"text":"&c","color":"red"}]
+tellraw @s [{"text":"&d","color":"light_purple"}]
+tellraw @s [{"text":"&e","color":"yellow"}]
+tellraw @s [{"text":"&f","color":"white"}]
+tellraw @s [{"text":"<<","color":"gold","clickEvent":{"action":"run_command","value":"/function note:chat"}}]
+tellraw @s "§3==============================="

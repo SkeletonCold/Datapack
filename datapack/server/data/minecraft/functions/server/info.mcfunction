@@ -1,0 +1,7 @@
+tellraw @s "§3==============================="
+tellraw @s "            §6介绍               "
+tellraw @s ""
+tellraw @s "服务器名称：Vanilla++"
+tellraw @s "---待用名称：彩虹之诗"
+tellraw @s "其他内容待补充...."
+tellraw @s "§3==============================="

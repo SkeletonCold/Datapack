@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "xxx",
+        "xzx",
+        "xxx"
+    ],
+    "key": {
+        "x":{
+            "item": "minecraft:stone"
+        },
+        "z":{
+            "item": "minecraft:coal_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:coal_ore"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "parent": "skeletoncold:recipes/root",
+    "rewards": {
+      "recipes": [
+        "skeletoncold:utilities/chest",
+        "skeletoncold:utilities/hopper",
+        "skeletoncold:utilities/stick"
+      ]
+    },
+    "criteria": {
+      "has_log": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "tag": "minecraft:logs"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_log"
+      ]
+    ]
+  }

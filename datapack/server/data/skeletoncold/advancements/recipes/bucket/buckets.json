@@ -1,0 +1,30 @@
+{
+    "parent": "skeletoncold:recipes/root",
+    "rewards": {
+      "recipes": [
+        "skeletoncold:bucket/lava_bucket",
+        "skeletoncold:bucket/water_bucket",
+        "skeletoncold:bucket/bucket_with_fish/cod",
+        "skeletoncold:bucket/bucket_with_fish/pufferfish",
+        "skeletoncold:bucket/bucket_with_fish/salmon",
+        "skeletoncold:bucket/bucket_with_fish/tropical_fish"
+      ]
+    },
+    "criteria": {
+      "has_bucket": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:bucket"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_bucket"
+      ]
+    ]
+  }

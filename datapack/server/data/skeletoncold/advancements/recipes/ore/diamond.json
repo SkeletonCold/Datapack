@@ -1,0 +1,25 @@
+{
+    "parent": "skeletoncold:recipes/root",
+    "rewards": {
+      "recipes": [
+        "skeletoncold:ore/diamond"
+      ]
+    },
+    "criteria": {
+      "has_diamond_block": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:diamond_block"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_diamond_block"
+      ]
+    ]
+  }

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:dragon_breath"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "item": "minecraft:chorus_fruit"
+        },
+        {
+            "item": "minecraft:end_stone"
+        }
+    ],
+    "result": {
+        "item": "minecraft:dragon_breath",
+        "count": 2
+    }
+}

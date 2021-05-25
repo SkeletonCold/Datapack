@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bucket"
+        },
+        {
+            "item": "minecraft:ice"
+        },
+        {
+            "item": "minecraft:pufferfish"
+        }
+    ],
+    "result": {
+        "item": "minecraft:pufferfish_bucket"
+    }
+}

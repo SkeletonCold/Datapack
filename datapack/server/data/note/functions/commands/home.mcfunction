@@ -1,0 +1,10 @@
+tellraw @s "§3==============================="
+tellraw @s "        §6帮助-Commads-Home               "
+tellraw @s "设置或传送至Home"
+tellraw @s "/sethome 设定一个家，玩家最多可设定5个家"
+tellraw @s "--/home set 同上"
+tellraw @s "--/home list 查看已设定的家，以及他的命名"
+tellraw @s "--/home <命名> 传送至已设定的家"
+tellraw @s "--/delhome <命名> 删除已设定的家"
+tellraw @s [{"text":"<<<","color":"gold","clickEvent":{"action":"run_command","value":"/function note:command"}}]
+tellraw @s "§3==============================="

@@ -1,0 +1,25 @@
+{
+    "parent": "skeletoncold:recipes/root",
+    "rewards": {
+      "recipes": [
+        "skeletoncold:cobweb"
+      ]
+    },
+    "criteria": {
+      "has_string": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:string"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_string"
+      ]
+    ]
+  }

@@ -1,0 +1,11 @@
+tellraw @s "§3==============================="
+tellraw @s "        §6帮助-Commads-Market               "
+tellraw @s "游戏中的交易系统"
+tellraw @s "/money /bal /balance <玩家ID> 查看<玩家ID>拥有的金钱数"
+tellraw @s "-- 参数：top 查看玩家持有的金钱数排行榜"
+tellraw @s "玩家初始可获得10.00$"
+tellraw @s "玩家每游玩1小时可获得60.00$"
+tellraw @s "§b==============================="
+tellraw @s "/pay <玩家ID> <数量> 给<玩家ID><数量>$"
+tellraw @s [{"text":"<<<","color":"gold","clickEvent":{"action":"run_command","value":"/function note:command"}}]
+tellraw @s "§3==============================="

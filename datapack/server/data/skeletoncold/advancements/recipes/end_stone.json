@@ -1,0 +1,25 @@
+{
+    "parent": "skeletoncold:recipes/root",
+    "rewards": {
+      "recipes": [
+        "skeletoncold:end_stone"
+      ]
+    },
+    "criteria": {
+      "has_end_stone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:dragon_breath"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_end_stone"
+      ]
+    ]
+  }

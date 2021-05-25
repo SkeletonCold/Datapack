@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "xxx",
+        "xzx",
+        "xxx"
+    ],
+    "key": {
+        "x":{
+            "item": "minecraft:stone"
+        },
+        "z":{
+            "item": "minecraft:emerald_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:emerald_ore"
+    }
+}

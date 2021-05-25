@@ -1,0 +1,25 @@
+{
+    "parent": "skeletoncold:recipes/root",
+    "rewards": {
+      "recipes": [
+        "skeletoncold:diamond"
+      ]
+    },
+    "criteria": {
+      "has_diamonds": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "tag": "skeletoncold:diamonds"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_diamonds"
+      ]
+    ]
+  }

@@ -1,0 +1,40 @@
+{
+    "parent": "skeletoncold:recipes/root",
+    "rewards": {
+      "recipes": [
+        "skeletoncold:woodcutter/acacia_log",
+        "skeletoncold:woodcutter/acacia_wood",
+        "skeletoncold:woodcutter/birch_log",
+        "skeletoncold:woodcutter/birch_wood",
+        "skeletoncold:woodcutter/crimson_hyphae",
+        "skeletoncold:woodcutter/crimson_stem",
+        "skeletoncold:woodcutter/dark_oak_log",
+        "skeletoncold:woodcutter/dark_oak_wood",
+        "skeletoncold:woodcutter/jungle_log",
+        "skeletoncold:woodcutter/jungle_wood",
+        "skeletoncold:woodcutter/oak_log",
+        "skeletoncold:woodcutter/oak_wood",
+        "skeletoncold:woodcutter/spruce_log",
+        "skeletoncold:woodcutter/spruce_wood",
+        "skeletoncold:woodcutter/warped_hyphae",
+        "skeletoncold:woodcutter/warped_stem"
+      ]
+    },
+    "criteria": {
+      "has_stonecutter": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:stonecutter"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_stonecutter"
+      ]
+    ]
+  }
