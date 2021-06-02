@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "N",
+    "S",
+    "S"
+  ],
+  "key": {
+    "N":{
+      "item": "minecraft:netherite_ingot"
+    },
+    "S":{
+      "tag": "hard_netherite:sticks"
+    }
+  },
+  "result": {
+    "item": "minecraft:netherite_shovel"
+  }
+}
