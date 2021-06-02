@@ -1,4 +1,4 @@
-#### [简体中文](https://github.com/SkeletonCold/Datapack/README.md)/[English](https://github.com/SkeletonCold/Datapack/README_en.md)
+#### [简体中文](https://github.com/SkeletonCold/Datapack/blob/master/README.md)/[English](https://github.com/SkeletonCold/Datapack/blob/master/README%20_en.md)
 # 简介
 自制的一些简单的数据包
 # 如何使用

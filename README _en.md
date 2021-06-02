@@ -1,4 +1,4 @@
-#### [Chinese](https://github.com/SkeletonCold/Datapack/README.md)/[English](https://github.com/SkeletonCold/Datapack/README_en.md)
+#### [Simple Chinese](https://github.com/SkeletonCold/Datapack/blob/master/README.md)/[English](https://github.com/SkeletonCold/Datapack/blob/master/README%20_en.md)
 # Info
 Some simple Minecraft datapacks.
 # How to use
